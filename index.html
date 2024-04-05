@@ -6,60 +6,70 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			   .vertical-text {
+ 			   writing-mode: vertical-lr;
+			   transform: rotate(180deg);
+			   position: fixed;
+			   bottom: 1px;
+			   padding: 10px;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
+		<div class="vertical-text"> <b "font-size: 110%;"> ⸻   </b><b style="color: peachpuff; font-size: 87%;">moh5en@riseup.net</b></div>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<span class="icon brands fa-linux"></span> <!-- fa-wave-square fa-server fa-microchip -->
 						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Mohsen Qazi</h1>
-								<p>A guy who studied physics, did <a href="https://github.com/MohsenQazi/">MLOps</a> but now is working on<br />
-								HPC and SDS.</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
+						<div class="content"> <div class="inner">
+							<p> Hello World! My name is <br/> <b style="color: peachpuff;"> Mohsen Qazi </b>.<br/>
+							I love to tackle new challenges! </p>
+							<p> I'm a DevOps and Linux System Engineer with a goal-driven creative mindset. <br/> Currently working as DevOps Cloud Engineer at payever and Virtualization Engineer at <a href="https://www.partsoftware.com/">PSG</a>. <br/> Outside work, I occasionally give a hand on <a href="https://superuser.com/users/1819930/mohsen-qazi">Stack Exchange Communities</a>.</p>
+						</div> </div>
+						<nav><ul>
+							<li><a href="#about">About</a></li>
+							<li><a href="#experience">Experience</a></li>
+                                                        <li><a href="#skills">Skills</a></li>
+							<!-- <li><a href="#contact">Contact</a></li> -->
+						</ul></nav>
 					</header>
 
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-							</article>
-
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-							</article>
-
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<p> Surprisingly I was studied Physics at the University. Due to lack of a computing infrastructure, I began to set up a <a href="https://scicluster.readthedocs.io/">mini HPC</a> (5-nodes) for academic staff, at Ferdowsi University of Mashhad. Users were working on the applications of ML/DL in the Physics; Object classification in Astronomy and Track Reconstruction in HEP. Soon after, modules needed for simulations in astronomy, chemistry, condensed matter have been built. </p>
+								<p>After that, I did R&D at the <a href="https://www.iranserver.com/en/">GreenWeb</a> and MLOps at the <a href="https://ferdowsi.cloud/">Ferdowsi-Cloud</a>, to design and build Big-Data and ML microservices.</p>
+								 Currently, I have been remotely implementing kubernetes infrastructure in order to have a smooth operation of cloud-based microservices at payever. Meanwhile, as a part-time Linux System Engineer I am working on Software-Defined Storage (SDS) solution at <a href="https://www.partsoftware.com/">Part Software Group</a>. We aim to develop an open-source SDS to be deployed on our VMware infra and by KVM hypervisor. 
 							</article>
+
+						<!-- Experience -->
+							<article id="experience">
+								<h2 class="major">Experience</h2>
+								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<p> <span style="color: tan;">2022-current ↴</span><br/> I have responsibilities at both infrastructure/network and devOps teams. Maintenance and supporting virtualization infra which is based on VMware stack as a sysAdmin; Developing an open-source software-defined storage solution to provide file/block/object storage. This SDS is mainly being used by database team and new virtualization infra with KVM at heart.</p>
+								<p> <span style="color: tan;">2019-2022 ↴</span><br/> As a HPC sysAdmin I have installed and set up a CentOS-based Cluster for Parallel and High-Performance Computing use cases at Ferdowsi University of Mashhad. It has a Queueing System based on SLURM and is stable enough that only required support is registering new account; Users just load required modules then execute their code.  <br/>Additionally, I have deployed an On-Demand Dashboard for users who need Desktop Container, Jupyter, VSCode, Mathematica.</p> 
+								<p> <span style="color: tan;">2020-2021 ↴</span><br/> During this period I was a MLOps engineer at GreenWeb and Ferdowsi-Cloud. My task was to containerise Machine Learning and Data Analysis tools using Microservices Architecture (GPU-as-a-service); And set up an Account Manager panel using Docker Swarm.</p>
+							</article>
+
+                                                <!-- Skills -->
+                                                        <article id="skills">
+                                                                <h2 class="major">Skills</h2>
+                                                                <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<p> vSphere & ESXi － QEMU & KVM － K8S & Docker </p>
+                                                                <p> CEPH － DRBD, Pacemaker & Corosync, TargetCLi</p>
+								<p> Bourne Shell － Python － Ansible & Rundeck </p>
+                                                                <p> RocksCluster － SLURM － Lmod － EasyBuild</p>
+                                                        </article>
 
 						<!-- Contact -->
 							<article id="contact">
@@ -85,15 +95,11 @@
 									</ul>
 								</form>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.instagram.com" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
-
 					</div>
-
 			</div>
 
 		<!-- BG -->
